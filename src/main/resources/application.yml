@@ -1,6 +1,10 @@
 server:
   port: 8888
 spring:
+  security:
+    user:
+      name: nondefaultusername
+      password: 3606ed88-0b68-4db3-bd5a-8b032e11918f
   cloud:
     config:
       server:
